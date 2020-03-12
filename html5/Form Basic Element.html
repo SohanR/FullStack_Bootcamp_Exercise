@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Basic Element</title>
+</head>
+<body>
+    <h1>Form Basic Element</h1>
+
+    <form>
+        <fieldset>
+            <legend>Input Box Element</legend>
+        <P>
+            <label for="input_text">Text:</label>
+            <input id="input_text" type="text" placeholder="Text" >
+        </P>    
+        <p>
+            <label for="input_email">Email:</label>
+            <input id="input_email" type="email" placeholder=" Email">
+        </p>
+        <p>
+            <label for="password">Password:</label>
+            <input id="password" type="password" placeholder="Password" minlength="8">
+        </p>
+        <p>
+            <label for="number">Number:</label>
+            <input id="number" type="number" placeholder="Number">
+        </p>
+        <p>
+            <label for="phone_number">Phone Number:</label>
+            <input id="phone_number" type="tel" placeholder="Phone Number">
+        </p>
+        <p>
+            <label for="url">URL:</label>
+            <input id="url" type="url" placeholder="URL">
+        </p>
+        <p>
+            <label for="search">Search:</label>
+            <input id="search" type="search" placeholder="Search">
+        </p>
+        </fieldset>
+    <br>    
+        <fieldset>
+            <legend>Select Form Element</legend>
+        <p>
+            <label for="select">Select</label>
+            <select id="option1">
+                <optgroup label="Option Group 1">
+                    <option>
+                        Red
+                    </option>
+                    <option>
+                        Green
+                    </option>
+                    <option>
+                        Blue
+                    </option>
+                </optgroup>
+                <optgroup label="Option Group 2">
+                    <option>
+                        Black
+                    </option>
+                    <option>
+                        White
+                    </option>
+                </optgroup>
+            </select>
+        </p>
+        </fieldset>
+    <br>
+
+        <fieldset>
+            <legend>Radio Button Element</legend>
+            <p>
+                <ul>
+                    <li>
+                        <label for="option1">Option 1:</label>
+                        <input type="radio" name="radio" id="option1">
+                    </li>
+
+                    <li>
+                        <label for="option2">Option 2:</label>
+                        <input type="radio" id="option2" name="radio">
+                    </li>
+                </ul>
+            </p>
+     <br>    
+         </fieldset>
+        
+        <fieldset>
+            <legend>Checkbox Element</legend>
+            <p>
+                <label for="checkbox1">Checkbox 1:</label>
+                <input type="checkbox" id="checkbox1" name="checkbox">
+
+                <label for="checkbox2">Checkbox 2:</label>
+                <input type="checkbox" id="checkbox2" name="checkbox">
+
+                <label for="checkbox3">Checkbox 3:</label>
+                <input type="checkbox" id="checkbox3" name="checkbox">
+            </p>
+        </fieldset>
+     <br>
+        
+        <fieldset>
+            <legend>TextArea Element</legend>
+            <p>
+                <label for="textarea">TextArea:</label>
+                <br>
+                <textarea id="textarea" cols="20" rows="10" placeholder="Enter Text Here...">
+                </textarea>
+            </p>
+        </fieldset>
+    <br>
+    </form>
+</body>
+</html>
